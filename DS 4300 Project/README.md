@@ -1,7 +1,7 @@
 DS4300 Project Final Report
 Boyuan Li, Xiang Zhu, Tanner Lederman
 
-Project Topic: Use a graph database to build a recommendation engine for movies
+**Project Topic: Use a graph database to build a recommendation engine for movies**
 
 Goals:
 Our goal for this project was to create a recommendation engine for movies. We decided to create recommendation engines through two different approaches: content-based filtering and collaborative filtering. 
