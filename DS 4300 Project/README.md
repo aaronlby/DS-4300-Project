@@ -31,6 +31,7 @@ Collaborative Filtering filters items for a user based on the reactions of simil
 1.	 A simple approach which only took genre into account.
 2.	An approach that used a cosine similarity which uses the user’s rating on the same movie to a different user’s rating on that movie and selects based on the other user’s preferences.
 3.	An approach that used k clustering, adjusted based on the Pearson similarity, or the preferred average rating of each user.
+
 Content-based Filtering filters items for a user based on the properties of the movies the user rated. We used four different approaches for content-based filtering:
 1.	A simple approach which filters movies in the graph based on the genres they are in.  * Note * this approach is not personalized and displays aggregate information from all user ratings in the database.
 2.	A simple approach which filters movies in the graph by the user’s favorite genre.
