@@ -41,4 +41,4 @@ Content-based Filtering filters items for a user based on the properties of the 
 All of the algorithms are described in more detail in their Jupyter notebooks. 
 
 Analysis/Conclusions:
-Each of the recommendations came up with different results. The most similar results are the recommendations given through content-based filtering, especially with the first and third methods. 
+Each of the recommendations came up with different results. Since these two algorithms work on the different ways. One is focusing on users, The most similar results are the recommendations given through content-based filtering, especially with the first and third methods. 
