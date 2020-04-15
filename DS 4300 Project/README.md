@@ -41,9 +41,6 @@ We have two main categories of algorithms for this project: Collaborative Filter
 
     All of the algorithms are described in more detail in their Jupyter notebooks. 
 
-### Analysis/Conclusions:
-Each of the recommendations came up with different results. Since these two algorithms work on the different ways. One is focusing on users, The most similar results are the recommendations given through content-based filtering, especially with the first and third methods. 
-
 ### Compare and Contrast of the Content-Based Filtering (CB) and Collaborative Filtering (CF):
 1. CB advatage-User Independence: Since each user's profile is obtained based on his own preference for the item, it naturally has nothing to do with the behavior of others. And CF is just the opposite, CF needs to use many other people's data. A significant benefit of this user independence of CB is that others will not affect themselves no matter how they cheat on the item.
 2. CB advatage-Transparency: If you need to explain to the user why these products were recommended to him, you only need to tell him that these products have certain attributes, which match your tastes and so on.
@@ -51,3 +48,8 @@ Each of the recommendations came up with different results. Since these two algo
 4. CB disadvantage-Limited Content Analysis: In many cases, it is difficult to extract the characteristics of the item from the item. In fact, in almost all practical situations, the item features we extract can only represent some aspects of the item, and cannot represent all aspects of the item.
 5. CB disadvantage-Over-specialization: Since the recommendation of CB only depends on the user's past preferences for certain items, the recommendations it generates will also be similar to the items the user liked in the past. If a person has only read articles related to recommendations before, CB will only recommend him more articles related to recommendations. It will not know that users may still like digital.
 6. CB disadvantage-New User Problem: The new user has no history of preferences, and naturally cannot obtain his profile, so he cannot generate recommendations for him. Of course, this problem CF also has.
+
+### Analysis/Conclusions:
+Each of the recommendations came up with different results. Since these two algorithms work on the different ways. One is focusing on users, The most similar results are the recommendations given through content-based filtering, especially with the first and third methods. 
+
+
