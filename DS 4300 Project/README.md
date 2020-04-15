@@ -1,5 +1,5 @@
-### DS4300 Project Final Report
-### Boyuan Li, Xiang Zhu, Tanner Lederman
+#### DS4300 Project Final Report
+#### Boyuan Li, Xiang Zhu, Tanner Lederman
 
 ## Project Topic: Use a graph database to build a recommendation engine for movies
 
@@ -27,16 +27,17 @@ When they open our application, we prompt them their name and ask them to rate t
 
 - Algorithms:
 We have two main categories of algorithms for this project: Collaborative Filtering and Content-Based Filtering. 
-  -Collaborative Filtering filters items for a user based on the reactions of similar users. We used three different approaches for collaborative filtering:
-    1. A simple approach which only took genre into account.
-    2. An approach that used a cosine similarity which uses the user’s rating on the same movie to a different user’s rating on that movie and selects based on the other user’s preferences.
+
+  Collaborative Filtering filters items for a user based on the reactions of similar users. We used three different approaches for collaborative filtering:
+   1. A simple approach which only took genre into account.
+   2. An approach that used a cosine similarity which uses the user’s rating on the same movie to a different user’s rating on that movie and selects based on the other user’s preferences.
     3. An approach that used k clustering, adjusted based on the Pearson similarity, or the preferred average rating of each user.
 
-  -Content-based Filtering filters items for a user based on the properties of the movies the user rated. We used four different approaches for content-based filtering:
-    1. A simple approach which filters movies in the graph based on the genres they are in.  * Note * this approach is not personalized and displays aggregate information from all user ratings in the database.
-    2. A simple approach which filters movies in the graph by the user’s favorite genre.
-    3. An approach that filters with a weighted value consisting of the movie’s genres, actors and directors that the user rated.
-    4. An approach that uses the Jaccard Index to track similarity between the user’s rated movies and the movies in the database. The Jaccard Index is calculated by dividing the Intersect of the two sets by the union of the two sets.
+  Content-based Filtering filters items for a user based on the properties of the movies the user rated. We used four different approaches for content-based filtering:
+   1. A simple approach which filters movies in the graph based on the genres they are in.  * Note * this approach is not personalized and displays aggregate information from all user ratings in the database.
+   2. A simple approach which filters movies in the graph by the user’s favorite genre.
+   3. An approach that filters with a weighted value consisting of the movie’s genres, actors and directors that the user rated.
+  4. An approach that uses the Jaccard Index to track similarity between the user’s rated movies and the movies in the database. The Jaccard Index is calculated by dividing the Intersect of the two sets by the union of the two sets.
 
     All of the algorithms are described in more detail in their Jupyter notebooks. 
 
